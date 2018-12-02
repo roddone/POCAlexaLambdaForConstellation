@@ -1,0 +1,22 @@
+{
+  "name": "constellation-betaseries",
+  "version": "1.0.0",
+  "description": "Alexa lambda for Constellation's BetaSeries package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "lambda",
+    "betaseries",
+    "contellation"
+  ],
+  "author": "Romain ODDONE",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "console": "^0.7.2",
+    "node-fetch": "^2.3.0"
+  }
+}
