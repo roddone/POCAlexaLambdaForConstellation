@@ -21,7 +21,7 @@ const handlers = {
             .then(json => {
 
                 let today = new Date();
-                let date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+                let date = `${today.getFullYear()}-${("0" + (today.getMonth() + 1)).slice(-2)}-${("0" + today.getDate()).slice(-2)}`;
                 let response = json[0].Value;
                 let custom = false;
                 let episodes = [];
